@@ -1,0 +1,145 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {font-family: 'Montserrat', sans-serif;}
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+nav .brand-logo {
+ font-family: 'Racing Sans One', cursive;
+ 
+}
+
+nav .nav-wrapper {
+ font-family: 'Racing Sans One', cursive;
+    padding : 0 50px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: white;
+}
+
+
+.parallax-container {
+	 font-family: 'Racing Sans One', cursive;
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+
+.section.intro {
+	height: 50%;
+	
+}
+
+.header {
+	margin-top: 25%;
+}
+
+.header-subtitle{
+	margin-top: 10%;
+	font-size: 1.3em;
+	
+}
+
+.header-sub{
+	font-size: 1.3em;
+}
+
+.header-subt{
+	margin-top: : 5%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+nav .nav-wrapper {
+ font-family: 'Racing Sans One', cursive;
+    padding : 0 10px;
+}
+
+}
+
+.col-servizio {
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.belive-icon{
+	font-size: 7em;
+	margin-top: 30px;
+}
+
+
+#servizio h5 {
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+
+.section-registrazione {
+	height: 100%;
+	width: 100%;
+}
+
+.registrazione-icon{
+	font-size: 7em;
+	margin-top: 200px;
+} 
+
+.btn-registrazione {
+	width: 100%;
+}
+
+.btn-opinione {
+	width: 50%;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: red ;
+}
+
+.social-icon {
+	font-size: 2.5em;
+	color: white ;
+	padding: 0 10px;
+}
+
+.social-icon:hover {
+	color:red ;
+}
+
